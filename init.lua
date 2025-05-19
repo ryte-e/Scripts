@@ -8,7 +8,6 @@ local web = true
 local user = "ryte-e" -- change if you're using a fork
 local branch = "main"
 local importCache = {}
-
 local function hasMethods(methods)
     for name in pairs(methods) do
         if not environment[name] then
